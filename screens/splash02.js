@@ -1,23 +1,27 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet,Image, View} from 'react-native';
+const nome = require('../assets/doulingo_nome.png');
 
 function SplashScreen2({navigation}) {
+  var tmp=setTimeout(function(){navigation.navigate('Home')}, 1300);
   
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#000000',
+      backgroundColor: '#32cd32',
       alignItems: 'center',
       justifyContent: 'center',
     },
-    text1:{
-      fontSize:15,
-      color: '#fff'
+    imag: {
+      height: 200, width: 170
     }
   });
   return (
     <View style={styles.container}>
-      <Text style={styles.text1}> Splash02 </Text>
+      <Image
+        style={styles.imag}
+        source={nome}
+        resizeMode="contain"/>
     </View>
   );
 }

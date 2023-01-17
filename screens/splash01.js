@@ -3,7 +3,7 @@ import {StyleSheet, Image, View} from 'react-native';
 const logo = require('../assets/duolingo_olho.png');
 
 function SplashScreen1({navigation}) {
-  var tmp=setTimeout(function(){navigation.navigate('Splash2')}, 500);
+  var tmp=setTimeout(function(){navigation.navigate('Splash2')}, 600);
    
   const styles = StyleSheet.create({
     container: {
@@ -12,14 +12,14 @@ function SplashScreen1({navigation}) {
       alignItems: 'center',
       justifyContent: 'center',
     },
-    imagPerf: {
+    imag: {
       height: 200, width: 170
     }
   });
   return (
     <View style={styles.container}>
       <Image
-        style={styles.imagPerf}
+        style={styles.imag}
         source={logo}
         resizeMode="contain"/>
     </View>
