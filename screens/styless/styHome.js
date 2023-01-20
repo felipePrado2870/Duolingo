@@ -134,6 +134,11 @@ const StyHome = StyleSheet.create({
     borderWidth: 2,
     borderRadius: 50,
   },
+  containerFlag2: {
+    alignContent: 'center',
+    flexDirection: 'row',
+   
+  },
   containerFlag3: {
     marginLeft:170,
     marginTop: 15,
@@ -241,10 +246,13 @@ const StyHome = StyleSheet.create({
     borderWidth: 2,
     borderRadius: 50,
   },
-   containerFlag2: {
+  containerFlag13: {
+    marginLeft:80,
+    marginTop: 15,
+    height: 80, 
+    width: 80,
     alignContent: 'center',
-    flexDirection: 'row',
-   
+    justifyContent: 'center',
   },
   imagFlag: {
     marginLeft: 15,
@@ -254,6 +262,24 @@ const StyHome = StyleSheet.create({
     borderRadius: 10,
     height: 35,
      width: 45
+  },
+  imagCoruja1: {
+    marginLeft: 15,
+    alignSelf: 'center',
+    height: 120,
+     width: 120
+  },
+  imagCoruja2: {
+    marginLeft: 15,
+    alignSelf: 'center',
+    height: 160,
+     width: 160
+  },
+  imagCoruja3: {
+    marginLeft: 15,
+    alignSelf: 'center',
+    height: 130,
+     width: 130
   }
 });
   export default StyHome

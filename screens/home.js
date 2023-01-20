@@ -7,6 +7,11 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import StyHome from './styless/styHome';
 import Foundation from 'react-native-vector-icons/Foundation';
 const FlagEUA = require('../assets/FlagEUA.png');
+const Coruja1 = require('../assets/coruja/doulingo-Coruja1.png')
+const Coruja2 = require('../assets/coruja/doulingo-Coruja2.png')
+const Coruja3 = require('../assets/coruja/doulingo-Coruja3.png')
+const Coruja4 = require('../assets/coruja/doulingo-Coruja4.png')
+const Coruja5 = require('../assets/coruja/doulingo-Coruja5.png')
 function HomeScreen({navigation}) {
   
 
@@ -56,7 +61,10 @@ function HomeScreen({navigation}) {
              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
             </View>
             <View style={StyHome.containerFlag9}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+              <Image
+              style={StyHome.imagCoruja1}
+              source={Coruja1}
+              resizeMode= "stretch"/>
             </View>
           </View>
           <View style={StyHome.containerFlag3}>
@@ -84,7 +92,10 @@ function HomeScreen({navigation}) {
           </View>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag10}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+              <Image
+              style={StyHome.imagCoruja2}
+              source={Coruja5}
+              resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag5}>
              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
@@ -104,7 +115,10 @@ function HomeScreen({navigation}) {
              <FontAwesome name="lock" style={StyHome.icon5}/>
             </View>
             <View style={StyHome.containerFlag9}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+              <Image
+              style={StyHome.imagCoruja3}
+              source={Coruja3}
+              resizeMode= "stretch"/>
             </View>
           </View>
           <View style={StyHome.containerFlag3}>
@@ -138,8 +152,11 @@ function HomeScreen({navigation}) {
             <View style={StyHome.containerFlag4}>
              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
             </View>
-            <View style={StyHome.containerFlag10}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+            <View style={StyHome.containerFlag13}>
+              <Image
+              style={StyHome.imagCoruja2}
+              source={Coruja2}
+              resizeMode= "stretch"/>
             </View>
           </View>
           <View style={StyHome.containerFlag3}>
@@ -153,7 +170,10 @@ function HomeScreen({navigation}) {
           </View>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag9}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+              <Image
+              style={StyHome.imagCoruja1}
+              source={Coruja1}
+              resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag4}>
              <FontAwesome name="lock" style={StyHome.icon5}/>
@@ -187,7 +207,10 @@ function HomeScreen({navigation}) {
           </View>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag10}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+             <Image
+              style={StyHome.imagCoruja2}
+              source={Coruja4}
+              resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag5}>
              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
@@ -207,7 +230,10 @@ function HomeScreen({navigation}) {
              <FontAwesome name="lock" style={StyHome.icon5}/>
             </View>
             <View style={StyHome.containerFlag9}>
-             <FontAwesome name="child" style={StyHome.icon8}/>
+              <Image
+              style={StyHome.imagCoruja2}
+              source={Coruja5}
+              resizeMode= "stretch"/>
             </View>
           </View>
           <View style={StyHome.containerFlag3}>
