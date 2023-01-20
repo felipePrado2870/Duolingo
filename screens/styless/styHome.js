@@ -117,6 +117,9 @@ const StyHome = StyleSheet.create({
     fontSize: 80,
     alignSelf: 'center',
   },
+  containerFlagTouch: {
+    flexDirection: 'row'
+  },
   containerFlag: {
     height: '100%', 
     width: '29%',

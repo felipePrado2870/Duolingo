@@ -3,7 +3,12 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import SplashScreen1 from './screens/splash01.js';
 import SplashScreen2 from './screens/splash02.js';
-import HomeScreen from './screens/home'
+import Book01Screen from './screens/books/book01';
+import Book02Screen from './screens/books/book02';
+import Book03Screen from './screens/books/book03';
+import Book04Screen from './screens/books/book04';
+import HomeScreen from './screens/home';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +22,10 @@ const App = () => {
       }}>
         <Stack.Screen name="Splash1" component={SplashScreen1} />
         <Stack.Screen name="Splash2" component={SplashScreen2} />
+        <Stack.Screen name="Book01" component={Book01Screen} />
+        <Stack.Screen name="Book02" component={Book02Screen} />
+        <Stack.Screen name="Book03" component={Book03Screen} />
+        <Stack.Screen name="Book04" component={Book04Screen} />
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
