@@ -6,12 +6,24 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import StyHome from './styless/styHome';
 import Foundation from 'react-native-vector-icons/Foundation';
-const FlagEUA = require('../assets/FlagEUA.png');
-const Coruja1 = require('../assets/coruja/doulingo-Coruja1.png')
-const Coruja2 = require('../assets/coruja/doulingo-Coruja2.png')
-const Coruja3 = require('../assets/coruja/doulingo-Coruja3.png')
-const Coruja4 = require('../assets/coruja/doulingo-Coruja4.png')
-const Coruja5 = require('../assets/coruja/doulingo-Coruja5.png')
+const FlagEUA = require('../assets/home/FlagEUA.png');
+const Imagem01Book01 = require('../assets/home/corujas-book01.png')
+const Imagem01Book02 = require('../assets/home/Imagem01-Book02.png')
+const Imagem02Book02 = require('../assets/home/Imagem02-Book02.png')
+const Imagem01Book03 = require('../assets/home/Imagem01-Book03.png')
+const Imagem02Book03 = require('../assets/home/Imagem02-Book03.png')
+const Imagem01Book04 = require('../assets/home/Imagem01-Book04.png')
+const Imagem02Book04 = require('../assets/home/Imagem02-Book04.png')
+const NextBook02 = require('../assets/home/next-Book02.png')
+const NextBook03 = require('../assets/home/next-Book03.png')
+const NextBook04 = require('../assets/home/next-Book04.png')
+const Book = require('../assets/home/book.png')
+const Gym = require('../assets/home/gym.png')
+const Lock = require('../assets/home/lock.png')
+const star = require('../assets/home/star.png')
+const Trophy = require('../assets/home/trophy.png')
+const Trunk = require('../assets/home/trunk.png')
+
 function HomeScreen({navigation}) {
   
   function Book01() {
@@ -74,30 +86,30 @@ function HomeScreen({navigation}) {
         <View style={StyHome.container4}>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag1}>
-              <AntDesign name="star" style={StyHome.icon6}/>
+              <Image style={StyHome.icon6} source={star} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag4}>
-             <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.imagCoruja1} source={Coruja1} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja1} source={Imagem01Book01} resizeMode= "stretch"/>
             </View>
           </View>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag7}>
-              <MaterialCommunityIcons name="trophy" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
         </View>
@@ -115,58 +127,58 @@ function HomeScreen({navigation}) {
         <View style={StyHome.container6}>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag8}>
-              <Foundation name="next" style={StyHome.icon6}/>
+              <Image style={StyHome.icon6} source={NextBook02} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag6}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag10}>
-              <Image style={StyHome.imagCoruja2} source={Coruja5} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja2} source={Imagem01Book02} resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag5}>
-             <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
           </View>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag6}>
-              <MaterialCommunityIcons name="cards-diamond" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View> 
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
-            <View style={StyHome.containerFlag4}>
-             <FontAwesome name="lock" style={StyHome.icon5}/>
-            </View>
+            <TouchableOpacity onPress={() => {}}> 
+              <View style={StyHome.containerFlag4}>
+                <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+              </View>
+            </TouchableOpacity>
             <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.imagCoruja3} source={Coruja3} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja3} source={Imagem02Book02} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
-          </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag7}>
-              <MaterialCommunityIcons name="trophy" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
         </View>
@@ -184,59 +196,59 @@ function HomeScreen({navigation}) {
         </View>
         <View style={StyHome.container6}>
           <TouchableOpacity onPress={() => {}}> 
-            <View style={StyHome.containerFlag11}>
-              <Foundation name="next" style={StyHome.icon6}/>
+            <View style={StyHome.containerFlag1}>
+              <Image style={StyHome.icon6} source={NextBook03} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag4}>
-             <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag13}>
-              <Image style={StyHome.imagCoruja2} source={Coruja2} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja2} source={Imagem01Book03} resizeMode= "stretch"/>
             </View>
           </View>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <MaterialCommunityIcons name="cards-diamond" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag6}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View> 
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.imagCoruja1} source={Coruja1} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja1} source={Imagem02Book03} resizeMode= "stretch"/>
             </View>
-            <View style={StyHome.containerFlag4}>
-             <FontAwesome name="lock" style={StyHome.icon5}/>
-            </View>
+            <TouchableOpacity onPress={() => {}}> 
+              <View style={StyHome.containerFlag4}>
+                <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+              </View>
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag6}>
-              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
+            </View>
+          <TouchableOpacity onPress={() => {}}> 
+            <View style={StyHome.containerFlag7}>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
-            </View>
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
-            <View style={StyHome.containerFlag7}>
-              <MaterialCommunityIcons name="trophy" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
         </View>
@@ -253,59 +265,59 @@ function HomeScreen({navigation}) {
         </View>
         <View style={StyHome.container6}>
           <TouchableOpacity onPress={() => {}}> 
-            <View style={StyHome.containerFlag12}>
-              <Foundation name="next" style={StyHome.icon6}/>
+            <View style={StyHome.containerFlag8}>
+              <Image style={StyHome.icon6} source={NextBook04} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag6}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
             <View style={StyHome.containerFlag10}>
-              <Image style={StyHome.imagCoruja2} source={Coruja4} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja2} source={Imagem01Book04} resizeMode= "stretch"/>
             </View>
             <View style={StyHome.containerFlag5}>
-              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
           </View>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag6}>
-              <MaterialCommunityIcons name="cards-diamond" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerFlag3}>
-              <FontAwesome name="lock" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerFlag2}>
-            <View style={StyHome.containerFlag4}>
-             <FontAwesome name="lock" style={StyHome.icon5}/>
-            </View>
+            <TouchableOpacity onPress={() => {}}>
+              <View style={StyHome.containerFlag4}>
+                <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+              </View>
+            </TouchableOpacity>
             <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.imagCoruja2} source={Coruja5} resizeMode= "stretch"/>
+              <Image style={StyHome.imagCoruja2} source={Imagem02Book04} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag3}>
-              <MaterialCommunityIcons name="treasure-chest" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View> 
-          </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag7}>
-              <MaterialIcons name="menu-book" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerFlag7}>
-              <MaterialCommunityIcons name="trophy" style={StyHome.icon5}/>
+              <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View> 
           </TouchableOpacity>
         </View>
