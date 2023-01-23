@@ -93,14 +93,14 @@ const StyHome = StyleSheet.create({
     alignSelf: 'center',
   },
   icon3: {
-    color: '#6495ed',
-    fontSize: 25,
     alignSelf: 'center',
+    height: 40,
+    width: 30,
   },
   icon4: {
-    color: '#ff0000',
-    fontSize: 25,
     alignSelf: 'center',
+    height: 35,
+    width: 35,
   },
   icon5: {
     alignSelf: 'center',
@@ -117,15 +117,15 @@ const StyHome = StyleSheet.create({
     fontSize: 80,
     alignSelf: 'center',
   },
-  containerFlagTouch: {
+  containerTouch: {
     flexDirection: 'row'
   },
-  containerFlag: {
+  containerIcons1: {
     height: '100%', 
-    width: '29%',
+    width: 120,
     flexDirection: 'row'
   },
-  containerFlag1: {
+  containerIcons2: {
     marginLeft:220,
     marginTop: 15,
     height: 80, 
@@ -133,12 +133,12 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag2: {
+  containerIcons3: {
     alignContent: 'center',
     flexDirection: 'row',
    
   },
-  containerFlag3: {
+  containerIcons4: {
     marginLeft:170,
     marginTop: 15,
     height: 80, 
@@ -146,7 +146,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag4: {
+  containerIcons5: {
     marginLeft:120,
     marginTop: 15,
     height: 75, 
@@ -154,7 +154,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag5: {
+  containerIcons6: {
     marginLeft:90,
     marginTop: 15,
     height: 80, 
@@ -162,7 +162,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag6: {
+  containerIcons7: {
     marginLeft:250,
     marginTop: 15,
     height: 80, 
@@ -170,7 +170,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag7: {
+  containerIcons8: {
     marginLeft:220,
     marginVertical: 10,
     marginTop: 15,
@@ -179,7 +179,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag8: {
+  containerIcons9: {
     marginLeft:200,
     marginTop: 15,
     height: 80, 
@@ -195,7 +195,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag10: {
+  containerIcons10: {
     marginLeft:120,
     marginTop: 15,
     height: 80, 
@@ -203,7 +203,7 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  containerFlag13: {
+  containerIcons11: {
     marginLeft:80,
     marginTop: 15,
     height: 80, 
@@ -212,31 +212,32 @@ const StyHome = StyleSheet.create({
     justifyContent: 'center',
   },
   imagFlag: {
+    marginTop: 5,
     marginLeft: 15,
     alignSelf: 'center',
     borderColor:'#fff',
     borderWidth: 2,
     borderRadius: 10,
     height: 35,
-     width: 45
+    width: 45
   },
-  imagCoruja1: {
+  Imagem1: {
     marginLeft: 15,
     alignSelf: 'center',
-    height: 120,
-     width: 120
+    height: 150,
+    width: 150
   },
-  imagCoruja2: {
+  Imagem2: {
     marginLeft: 15,
     alignSelf: 'center',
     height: 160,
      width: 160
   },
-  imagCoruja3: {
+  Imagem3: {
     marginLeft: 15,
     alignSelf: 'center',
-    height: 130,
-     width: 130
+    height: 170,
+     width: 140
   }
 });
   export default StyHome
