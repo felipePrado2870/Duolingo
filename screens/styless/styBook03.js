@@ -77,7 +77,7 @@ const StyBook03 = StyleSheet.create({
     backgroundColor: '#4444',
     marginTop: 20,
     width: '100%',
-    height: '100%',
+    height: 820,
   },
   container9: {
     marginTop: 10,
@@ -96,7 +96,6 @@ const StyBook03 = StyleSheet.create({
     borderColor: '#87cefa',
     borderRadius: 20,
     borderWidth: 3
-
   },
   container11: {
     marginTop: 10,
@@ -104,6 +103,80 @@ const StyBook03 = StyleSheet.create({
     width: 200,
     height: 130,
   },
+  container12: {
+    flexDirection: 'row',
+    marginTop: 20,
+    marginLeft: 20,
+    width: 305,
+    height: 100,
+    borderColor: '#d3d3d3',
+    borderRadius: 20,
+    borderWidth: 2,
+  },
+  container13: {
+    marginTop: -15,
+    flexDirection: 'row',
+    marginLeft: 120,
+    width: 300,
+    height: 100,
+    backgroundColor:'#444',
+    borderColor: '#d3d3d3',
+    borderRadius: 20,
+    borderWidth: 2,
+  },
+  container14: {
+    marginTop: 20,
+    flexDirection: 'row',
+    marginLeft: 20,
+    width: 360,
+    height: 100,
+    borderColor: '#d3d3d3',
+    borderRadius: 20,
+    borderWidth: 2,
+  },
+  container15: {
+    marginTop: 20,
+    flexDirection: 'row',
+    marginLeft: 20,
+    width: 250,
+    height: 100,
+    borderColor: '#d3d3d3',
+    borderRadius: 20,
+    borderWidth: 2,
+  },
+  container16: {
+    marginTop: 20,
+    flexDirection: 'row',
+    marginLeft: 20,
+    marginVertical: 20,
+    width: 270,
+    height: 100,
+    borderColor: '#d3d3d3',
+    borderRadius: 20,
+    borderWidth: 2,
+  },
+  container17: {
+    flexDirection: 'row',
+    marginTop: 30,
+    marginLeft: 20,
+    width: 395,
+    height: 220,
+    backgroundColor: '#222',
+    borderColor: '#87cefa',
+    borderRadius: 20,
+    borderWidth: 3
+  },
+  container18: {
+    flexDirection: 'row',
+    justifyContent:  'center',
+  },
+  container19: {
+    backgroundColor: '#4444',
+    marginTop: 20,
+    width: '100%',
+    height: 1080,
+  },
+
 
   text1:{
     marginLeft: 5,
@@ -230,6 +303,11 @@ const StyBook03 = StyleSheet.create({
     fontSize: 30,
     marginTop: 35,
     marginLeft: 10,
+  },
+  icon3: {
+    color: '#87cefa',
+    marginTop: 15,
+    fontSize: 30,
   },
 });
   export default StyBook03
