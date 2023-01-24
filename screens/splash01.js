@@ -3,7 +3,7 @@ import {StyleSheet, Image, View} from 'react-native';
 const logo = require('../assets/duolingo_olho.png');
 
 function SplashScreen1({navigation}) {
-  var tmp=setTimeout(function(){navigation.navigate('Splash2')}, 600);
+  var tmp=setTimeout(function(){navigation.navigate('Splash2')}, 300);
    
   const styles = StyleSheet.create({
     container: {

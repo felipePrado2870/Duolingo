@@ -2,11 +2,7 @@ import React from 'react';
 import {Image, ScrollView, TouchableOpacity, Text, View} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import StyHome from './styless/styHome';
-import Foundation from 'react-native-vector-icons/Foundation';
-const FlagEUA = require('../assets/home/FlagEUA.png');
 const Imagem01Book01 = require('../assets/home/corujas-book01.png')
 const Imagem01Book02 = require('../assets/home/Imagem01-Book02.png')
 const Imagem02Book02 = require('../assets/home/Imagem02-Book02.png')
@@ -127,7 +123,7 @@ function HomeScreen({navigation}) {
             </TouchableOpacity>
           </View> 
         </View>
-        <View style={StyHome.container6}>
+        <View style={StyHome.container7}>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons9}>
               <Image style={StyHome.icon6} source={NextBook02} resizeMode= "stretch"/>
@@ -205,7 +201,7 @@ function HomeScreen({navigation}) {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
-              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
@@ -218,7 +214,7 @@ function HomeScreen({navigation}) {
           </View>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
-              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
@@ -233,7 +229,7 @@ function HomeScreen({navigation}) {
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
             <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.Imagem1} source={Imagem02Book03} resizeMode= "stretch"/>
+              <Image style={StyHome.Imagem2} source={Imagem02Book03} resizeMode= "stretch"/>
             </View>
             <TouchableOpacity onPress={() => {}}> 
               <View style={StyHome.containerIcons5}>
@@ -250,6 +246,11 @@ function HomeScreen({navigation}) {
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
+            <View style={StyHome.containerIcons4}>
+              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
@@ -261,12 +262,12 @@ function HomeScreen({navigation}) {
            <Text style={StyHome.text2}>Flae sobre a família</Text>
           </View>
           <View style={StyHome.view2}>
-            <TouchableOpacity onPress={Book03}> 
+            <TouchableOpacity onPress={Book04}> 
               <MaterialCommunityIcons name="notebook-multiple" style={StyHome.icon1}/>
             </TouchableOpacity>
           </View>
         </View>
-        <View style={StyHome.container6}>
+        <View style={StyHome.container7}>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons9}>
               <Image style={StyHome.icon6} source={NextBook04} resizeMode= "stretch"/>
@@ -274,7 +275,7 @@ function HomeScreen({navigation}) {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
             <View style={StyHome.containerIcons7}>
-              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+              <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
@@ -287,7 +288,7 @@ function HomeScreen({navigation}) {
           </View>
           <TouchableOpacity onPress={() => {}}>
             <View style={StyHome.containerIcons7}>
-              <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
+              <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}> 
@@ -303,7 +304,7 @@ function HomeScreen({navigation}) {
           <View style={StyHome.containerIcons3}>
             <TouchableOpacity onPress={() => {}}>
               <View style={StyHome.containerIcons5}>
-                <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
+                <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
               </View>
             </TouchableOpacity>
             <View style={StyHome.containerFlag9}>

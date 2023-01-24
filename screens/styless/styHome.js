@@ -7,7 +7,7 @@ const StyHome = StyleSheet.create({
     height: '100%',
   },
   container1: {
-    backgroundColor: '#808080',
+    backgroundColor: '#444',
     width: '100%',
     height: 45,
     flexDirection: 'row'
@@ -19,34 +19,39 @@ const StyHome = StyleSheet.create({
   },
   container3: {
     flexDirection: 'row',
-    backgroundColor: '#808080',
+    backgroundColor: '#444',
     width: '100%',
-    height: 105,
+    height: 120,
   },
   container4: {
-    backgroundColor: '#444',
+    backgroundColor: '#222',
     width: '100%',
     height: 500,
   },
   container5: {
-    backgroundColor: '#808080',
+    backgroundColor: '#444',
     width: '100%',
-    height: 80,
+    height: 100,
     flexDirection: 'row',
 
   },
   container6: {
-    backgroundColor: '#444',
+    backgroundColor: '#222',
+    width: '100%',
+    height: 1090,
+  },
+  container7: {
+    backgroundColor: '#222',
     width: '100%',
     height: 990,
   },
   scroll: {
-    backgroundColor: '#808080',
+    backgroundColor: '#444',
     width: '100%',
   },
   text1: {
     marginTop:10,
-    fontSize:25,
+    fontSize:30,
     color: '#fff'
   },
   text2: {
@@ -83,7 +88,7 @@ const StyHome = StyleSheet.create({
     borderWidth: 2,
   },
   icon1: {
-    color: '#ffffff',
+    color: '#fff',
     fontSize: 25,
     alignSelf: 'center',
   },
@@ -104,13 +109,13 @@ const StyHome = StyleSheet.create({
   },
   icon5: {
     alignSelf: 'center',
-    height: 110, 
-    width: 110,
+    height: 95, 
+    width: 95,
   },
   icon6: {
     alignSelf: 'center',
-    height: 110, 
-    width: 110,
+    height: 95, 
+    width: 95,
   },
   icon8: {
     color: '#c0c0c0',
@@ -224,20 +229,20 @@ const StyHome = StyleSheet.create({
   Imagem1: {
     marginLeft: 15,
     alignSelf: 'center',
-    height: 150,
-    width: 150
+    height: 120,
+    width: 120
   },
   Imagem2: {
     marginLeft: 15,
     alignSelf: 'center',
-    height: 160,
-     width: 160
+    height: 150,
+    width: 150
   },
   Imagem3: {
     marginLeft: 15,
     alignSelf: 'center',
-    height: 170,
-     width: 140
+    height: 140,
+    width: 130
   }
 });
   export default StyHome
