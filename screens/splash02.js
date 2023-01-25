@@ -3,7 +3,7 @@ import {StyleSheet,Image, View} from 'react-native';
 const nome = require('../assets/doulingo_nome.png');
 
 function SplashScreen2({navigation}) {
-  var tmp=setTimeout(function(){navigation.navigate('Home')}, 600);
+  var tmp=setTimeout(function(){navigation.navigate('BottomTab')}, 600);
   
   const styles = StyleSheet.create({
     container: {
