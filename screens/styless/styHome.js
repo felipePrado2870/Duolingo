@@ -26,7 +26,7 @@ const StyHome = StyleSheet.create({
   container4: {
     backgroundColor: '#222',
     width: '100%',
-    height: 500,
+    height: 600,
   },
   container5: {
     backgroundColor: '#444',
@@ -38,17 +38,23 @@ const StyHome = StyleSheet.create({
   container6: {
     backgroundColor: '#222',
     width: '100%',
-    height: 1090,
+    height: 1190,
   },
   container7: {
     backgroundColor: '#222',
     width: '100%',
-    height: 990,
+    height: 1090,
   },
+  container8: {
+    width: '100%',
+    height: 81,
+  },
+
   scroll: {
     backgroundColor: '#444',
     width: '100%',
   },
+
   text1: {
     marginTop:10,
     fontSize:30,
@@ -70,6 +76,19 @@ const StyHome = StyleSheet.create({
     fontSize: 22,
     color: '#fff'
   },
+  text5: {
+    fontSize: 20,
+    color: '#adff2f'
+  },
+  text6: {
+    fontSize: 20,
+    color: '#da70d6'
+  },
+  text7: {
+    fontSize: 20,
+    color: '#7fffd4'
+  },
+
   view1: {
     height: '100%',
     width: '80%',
@@ -87,6 +106,40 @@ const StyHome = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 2,
   },
+  view3: {
+    marginLeft: 200,
+    marginTop: 20,
+    height: 50,
+    width: 120,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor:'#696969',
+    borderRadius: 10,
+    borderWidth: 2,
+  },
+  view4: {
+    marginLeft: 125,
+    marginTop: 20,
+    height: 50,
+    width: 230,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor:'#696969',
+    borderRadius: 10,
+    borderWidth: 2,
+  },
+  view5: {
+    marginLeft: 145,
+    marginTop: 20,
+    height: 50,
+    width: 230,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor:'#696969',
+    borderRadius: 10,
+    borderWidth: 2,
+  },
+
   icon1: {
     color: '#fff',
     fontSize: 25,
@@ -122,9 +175,15 @@ const StyHome = StyleSheet.create({
     fontSize: 80,
     alignSelf: 'center',
   },
-  containerTouch: {
+
+  containerTouch1: {
     flexDirection: 'row'
   },
+  containerTouch2: {
+    height: 100, 
+    width: 100,
+  },
+
   containerIcons1: {
     height: '100%', 
     width: 120,
@@ -132,7 +191,6 @@ const StyHome = StyleSheet.create({
   },
   containerIcons2: {
     marginLeft:220,
-    marginTop: 15,
     height: 80, 
     width: 80,
     alignContent: 'center',
@@ -141,7 +199,6 @@ const StyHome = StyleSheet.create({
   containerIcons3: {
     alignContent: 'center',
     flexDirection: 'row',
-   
   },
   containerIcons4: {
     marginLeft:170,
@@ -186,15 +243,6 @@ const StyHome = StyleSheet.create({
   },
   containerIcons9: {
     marginLeft:200,
-    marginTop: 15,
-    height: 80, 
-    width: 80,
-    alignContent: 'center',
-    justifyContent: 'center',
-  },
-  containerFlag9: {
-    marginLeft:90,
-    marginTop: 15,
     height: 80, 
     width: 80,
     alignContent: 'center',
@@ -216,16 +264,15 @@ const StyHome = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
   },
-  imagFlag: {
-    marginTop: 5,
-    marginLeft: 15,
-    alignSelf: 'center',
-    borderColor:'#fff',
-    borderWidth: 2,
-    borderRadius: 10,
-    height: 35,
-    width: 45
+  containerIcons12: {
+    marginLeft:90,
+    marginTop: 15,
+    height: 80, 
+    width: 80,
+    alignContent: 'center',
+    justifyContent: 'center',
   },
+
   Imagem1: {
     marginLeft: 15,
     alignSelf: 'center',
@@ -239,10 +286,22 @@ const StyHome = StyleSheet.create({
     width: 150
   },
   Imagem3: {
-    marginLeft: 15,
+    marginLeft: 220,
     alignSelf: 'center',
     height: 140,
     width: 130
-  }
+  },
+
+  imagFlag: {
+    marginTop: 5,
+    marginLeft: 15,
+    alignSelf: 'center',
+    borderColor:'#fff',
+    borderWidth: 2,
+    borderRadius: 10,
+    height: 35,
+    width: 45
+  },
+ 
 });
   export default StyHome

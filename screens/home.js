@@ -50,19 +50,19 @@ function HomeScreen({navigation}) {
           </TouchableOpacity>
         </View>
         <View style={StyHome.containerIcons1}>
-          <TouchableOpacity style={StyHome.containerTouch} onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch1} onPress={() => {}}>
             <MaterialIcons name="local-fire-department" style={StyHome.icon2}/>
             <Text style={StyHome.text3}>0</Text>
           </TouchableOpacity>
         </View>
         <View style={StyHome.containerIcons1}>
-          <TouchableOpacity style={StyHome.containerTouch} onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch1} onPress={() => {}}> 
             <Image style={StyHome.icon3} source={iconDiamond} resizeMode= "stretch"/>
             <Text style={StyHome.text4}>5630</Text>
           </TouchableOpacity> 
         </View>
         <View style={StyHome.containerIcons1}>
-          <TouchableOpacity style={StyHome.containerTouch} onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch1} onPress={() => {}}>
             <Image style={StyHome.icon4} source={iconHeart} resizeMode= "stretch"/>
             <Text style={StyHome.text4}>5</Text>
           </TouchableOpacity>
@@ -83,12 +83,17 @@ function HomeScreen({navigation}) {
           </View>
         </View>
         <View style={StyHome.container4}>
-          <TouchableOpacity onPress={() => {}}> 
+          <View style={StyHome.container8}>
+            <View style={StyHome.view3}>
+              <Text style={StyHome.text5}>COMEÇAR</Text>
+            </View>
+          </View>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons2}>
               <Image style={StyHome.icon6} source={star} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
@@ -97,16 +102,16 @@ function HomeScreen({navigation}) {
             <View style={StyHome.containerIcons5}>
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
-            <View style={StyHome.containerFlag9}>
+            <View style={StyHome.containerIcons12}>
               <Image style={StyHome.Imagem1} source={Imagem01Book01} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
@@ -124,12 +129,17 @@ function HomeScreen({navigation}) {
           </View> 
         </View>
         <View style={StyHome.container7}>
-          <TouchableOpacity onPress={() => {}}> 
+          <View style={StyHome.container8}>
+            <View style={StyHome.view4}>
+              <Text style={StyHome.text6}>QUER PULAR PRA CÁ?</Text>
+            </View>
+          </View>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons9}>
               <Image style={StyHome.icon6} source={NextBook02} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
@@ -142,40 +152,40 @@ function HomeScreen({navigation}) {
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View> 
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
-            <TouchableOpacity onPress={() => {}}> 
+            <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
               <View style={StyHome.containerIcons5}>
                 <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
               </View>
             </TouchableOpacity>
-            <View style={StyHome.containerFlag9}>
+            <View style={StyHome.containerIcons12}>
               <Image style={StyHome.Imagem3} source={Imagem02Book02} resizeMode= "stretch"/>
             </View>
           </View>
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
@@ -194,12 +204,17 @@ function HomeScreen({navigation}) {
           </View>
         </View>
         <View style={StyHome.container6}>
-          <TouchableOpacity onPress={() => {}}> 
+          <View style={StyHome.container8}>
+            <View style={StyHome.view5}>
+              <Text style={StyHome.text7}>QUER PULAR PRA CÁ?</Text>
+            </View>
+          </View>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons2}>
               <Image style={StyHome.icon6} source={NextBook03} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
@@ -212,26 +227,26 @@ function HomeScreen({navigation}) {
               <Image style={StyHome.Imagem2} source={Imagem01Book03} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View> 
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
-            <View style={StyHome.containerFlag9}>
+            <View style={StyHome.containerIcons12}>
               <Image style={StyHome.Imagem2} source={Imagem02Book03} resizeMode= "stretch"/>
             </View>
-            <TouchableOpacity onPress={() => {}}> 
+            <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
               <View style={StyHome.containerIcons5}>
                 <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
               </View>
@@ -240,17 +255,17 @@ function HomeScreen({navigation}) {
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View>
@@ -268,12 +283,17 @@ function HomeScreen({navigation}) {
           </View>
         </View>
         <View style={StyHome.container7}>
-          <TouchableOpacity onPress={() => {}}> 
+          <View style={StyHome.container8}>
+            <View style={StyHome.view4}>
+              <Text style={StyHome.text5}>QUER PULAR PRA CÁ?</Text>
+            </View>
+          </View>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons9}>
               <Image style={StyHome.icon6} source={NextBook04} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
@@ -286,40 +306,40 @@ function HomeScreen({navigation}) {
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View>
           </View>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons7}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}> 
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}> 
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Lock} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
           <View style={StyHome.containerIcons3}>
-            <TouchableOpacity onPress={() => {}}>
+            <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
               <View style={StyHome.containerIcons5}>
                 <Image style={StyHome.icon5} source={Gym} resizeMode= "stretch"/>
               </View>
             </TouchableOpacity>
-            <View style={StyHome.containerFlag9}>
-              <Image style={StyHome.Imagem2} source={Imagem02Book04} resizeMode= "stretch"/>
+            <View style={StyHome.containerIcons12}>
+              <Image style={StyHome.Imagem3} source={Imagem02Book04} resizeMode= "stretch"/>
             </View>
           </View>
             <View style={StyHome.containerIcons4}>
               <Image style={StyHome.icon5} source={Trunk} resizeMode= "stretch"/>
             </View> 
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Book} resizeMode= "stretch"/>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity style={StyHome.containerTouch2} onPress={() => {}}>
             <View style={StyHome.containerIcons8}>
               <Image style={StyHome.icon5} source={Trophy} resizeMode= "stretch"/>
             </View> 
