@@ -4,7 +4,7 @@ import Screen0101 from './competition';
 import ScreenProfile from './profile';
 import ScreenChallenges from './challenges';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Image,  StyleSheet} from 'react-native';
+import {Image,  StyleSheet, View} from 'react-native';
 const Imagem01 = require('../assets/bottomTab/icon1.png');
 const Imagem02 = require('../assets/bottomTab/icon01.png');
 const Imagem03 = require('../assets/bottomTab/icon2.png');
@@ -17,28 +17,32 @@ const Imagem08 = require('../assets/bottomTab/icon04.png');
 const Tab = createBottomTabNavigator();
 
 const styles = StyleSheet.create({
-    imag01: {
-        marginTop: 22,
-        height: 57,
-        width: 57,
-    },
-  });
+  imag01: {
+    height: 55,
+    width: 55,
+  },
+  Contaicontainer: {
+    marginTop: 10,
+    width: '100%',
+    height: 53,
+    alignItems:  'center',
+    backgroundColor: '#444'
+  },
+});
 
 const Naveg = () => {
   return (
     <Tab.Navigator
-      screenOptions={{headerShown: false}}
-      style
-      tabBarOptions={{
-        tabStyle: {paddingBottom: 5, paddinTop: 5, backgroundColor: '#444'},
-      }}>
+      screenOptions={{headerShown: false}}>
       <Tab.Screen
         name="Home"
         component={HomeScreen}
         options={{
-            tabBarLabel: '',
+          tabBarLabel: '',
           tabBarIcon: ({focused}) => (
-            <Image style={styles.imag01} source={ focused ? Imagem02 : Imagem01 }  resizeMode= "stretch"/>
+            <View style={styles.Contaicontainer}>
+              <Image style={styles.imag01} source={ focused ? Imagem02 : Imagem01 }  resizeMode= "stretch"/>
+            </View>
           ),
         }}
       />
@@ -46,9 +50,11 @@ const Naveg = () => {
         name="Screen0101"
         component={Screen0101}
         options={{
-            tabBarLabel: '',
+          tabBarLabel: '',
           tabBarIcon: ({focused})=> (
-            <Image style={styles.imag01} source={ focused ? Imagem04 : Imagem03 } resizeMode= "stretch"/>
+            <View style={styles.Contaicontainer}>
+              <Image style={styles.imag01} source={ focused ? Imagem04 : Imagem03 } resizeMode= "stretch"/>
+            </View>
           ),
         }}
       />
@@ -56,9 +62,11 @@ const Naveg = () => {
         name="Screen0202"
         component={ScreenProfile}
         options={{
-            tabBarLabel: '',
+          tabBarLabel: '',
           tabBarIcon: ({focused}) => (
-            <Image style={styles.imag01} source={ focused ? Imagem06 : Imagem05 } resizeMode= "stretch"/>
+            <View style={styles.Contaicontainer}>
+              <Image style={styles.imag01} source={ focused ? Imagem06 : Imagem05 } resizeMode= "stretch"/>
+            </View>
           ),
         }}
       />
@@ -66,9 +74,11 @@ const Naveg = () => {
         name="Screen0303"
         component={ScreenChallenges}
         options={{
-            tabBarLabel: '',
+          tabBarLabel: '',
           tabBarIcon: ({focused}) => (
-            <Image style={styles.imag01} source={ focused ? Imagem08 : Imagem07 } resizeMode= "stretch"/>
+            <View style={styles.Contaicontainer}>
+              <Image style={styles.imag01} source={ focused ? Imagem08 : Imagem07 } resizeMode= "stretch"/>
+            </View>
           ),
         }}
       />
