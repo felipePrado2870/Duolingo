@@ -1,16 +1,22 @@
 import React from 'react';
-import { Image, ScrollView, Text, View} from 'react-native';
+import { Image, ScrollView, TouchableOpacity, Text, View} from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import StyBook02 from './styless/styBook02';
 const Imagem01 = require('../assets/books/book-02/Imagem1-Livro2.jpg.png')
 
 function Book02Screen({navigation}) {
+
+  function goBack() {
+    navigation.navigate("Home")
+  }
   
   return (
     <View style={StyBook02.container}>
       <ScrollView style={StyBook02.scroll}>
         <View>
-          <Text style={StyBook02.text1}> X </Text>
+        <TouchableOpacity style={StyBook02.containerTouch1} onPress={goBack}> 
+            <Text style={StyBook02.text1}> X </Text>
+          </TouchableOpacity>
           <Image style={StyBook02.imag01} source={Imagem01} resizeMode= "stretch"/>
           <Text style={StyBook02.text2}>Guia da Unidade 2</Text>
           <Text style={StyBook02.text3}>Explore explicações de gramática e</Text>

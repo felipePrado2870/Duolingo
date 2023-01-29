@@ -7,8 +7,6 @@ const StyBook01 = StyleSheet.create({
           height: '100%',
         },
         text1:{
-          marginLeft: 5,
-          marginTop: 10,
           fontSize:25,
           color: '#999'
         },
@@ -303,5 +301,12 @@ const StyBook01 = StyleSheet.create({
           marginLeft: 90,
           marginHorizontal: 10,
         },
+        containerTouch1: {
+          height: 30,
+          marginLeft: 15,
+          marginTop: 15,
+          width: 30,
+        },
+      
 });
   export default StyBook01

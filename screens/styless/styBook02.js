@@ -91,10 +91,14 @@ const StyBook02 = StyleSheet.create({
     alignItems:'center',
     flexDirection: 'row',
   },
+  containerTouch1: {
+    height: 30,
+    marginLeft: 15,
+    marginTop: 15,
+    width: 30,
+  },
 
   text1:{
-    marginLeft: 5,
-    marginTop: 10,
     fontSize:25,
     color: '#999'
   },
