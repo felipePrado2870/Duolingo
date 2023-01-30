@@ -1,5 +1,5 @@
   import React from 'react';
-import { Image, ScrollView,TouchableOpacity, Text, View} from 'react-native';
+import { Image, ScrollView, StatusBar,TouchableOpacity, Text, View} from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import StyBook01 from './styless/styBook01';
 const CorujaLivro1 = require('../assets/books/book-01/corujas-Livro1.png')
@@ -16,6 +16,7 @@ function Book01Screen({navigation}) {
 
   return (
     <View style={StyBook01.container}>
+      <StatusBar animated={true} backgroundColor="#222" barStyle="light-content" />
       <ScrollView style={StyBook01.scroll}>
         <View>
           <TouchableOpacity style={StyBook01.containerTouch1} onPress={goBack}> 
