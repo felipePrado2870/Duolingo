@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, ScrollView, TouchableOpacity, Text, View} from 'react-native';
+import {Image, ScrollView, StatusBar,  TouchableOpacity, Text, View} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import StyHome from './styless/styHome';
@@ -43,6 +43,7 @@ function HomeScreen({navigation}) {
 
   return (
     <View style={StyHome.container}>
+      <StatusBar animated={true} backgroundColor="#444" barStyle="light-content" />
       <View style={StyHome.container1}>
         <View style={StyHome.containerIcons1}>
           <TouchableOpacity onPress={() => {}}>
