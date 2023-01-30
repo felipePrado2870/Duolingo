@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text, View} from 'react-native';
+import { Image, Text, StatusBar, View} from 'react-native';
 import StyCompetition from './styless/styCompetition';
 const Imagem01 = require('../assets/competition/Image01.jpg')
 const Imagem02 = require('../assets/competition/Image02.jpg')
@@ -12,6 +12,7 @@ function ScreenCompetition({navigation}) {
   
   return (
     <View style={StyCompetition.container}>
+      <StatusBar animated={true} backgroundColor="#000000" barStyle="light-content" />
       <View style={StyCompetition.container1}>
         <View style={StyCompetition.container2}>
           <Image style={StyCompetition. containerImgeg02} source={Imagem02} resizeMode= "stretch"/>
