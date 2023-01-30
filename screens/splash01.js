@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Image, View} from 'react-native';
+import {StyleSheet, StatusBar, Image, View} from 'react-native';
 const logo = require('../assets/duolingo_olho.png');
 
 function SplashScreen1({navigation}) {
@@ -18,6 +18,7 @@ function SplashScreen1({navigation}) {
   });
   return (
     <View style={styles.container}>
+      <StatusBar animated={true} backgroundColor="#32cd32" barStyle="light-content" />
       <Image
         style={styles.imag}
         source={logo}
