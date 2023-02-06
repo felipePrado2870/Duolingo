@@ -4,7 +4,7 @@ const StyCompetition = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#222',
         alignItems: 'center',
     },
     container1: {
