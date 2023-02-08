@@ -6,7 +6,7 @@ const Image2 = require('../assets/profile/image2.jpg')
 const Image3 = require('../assets/profile/image3.jpg')
 const Image4 = require('../assets/profile/image4.jpg')
 const Image5 = require('../assets/profile/image5.jpg')
-
+const Image6 = require('../assets/profile/image6.jpg')
 const IconFlag = require('../assets/profile/FlagEUA.png')
 const Icon1 = require('../assets/profile/icon1.png')
 const Icon2 = require('../assets/profile/icon2.png')
@@ -14,6 +14,9 @@ const Icon3 = require('../assets/profile/icon3.png')
 const Icon4 = require('../assets/profile/icon4.png')
 const Icon5 = require('../assets/profile/icon5.png')
 const Icon6 = require('../assets/profile/icon6.png')
+const Icon7 = require('../assets/profile/icon7.png')
+const Icon8 = require('../assets/profile/icon8.png')
+const Icon9 = require('../assets/profile/icon9.png')
 
 function ScreenProfile({navigation}) {
   
@@ -28,6 +31,7 @@ function ScreenProfile({navigation}) {
     scroll2: {
       marginTop: 10,
       height: 220,
+      marginHorizontal: 15,
       
     },
     view1:{
@@ -46,7 +50,7 @@ function ScreenProfile({navigation}) {
       justifyContent:'center',
       borderColor: '#444',
       borderWidth:2,
-      borderRadius: 10,
+      borderRadius: 15,
       height: 50,
       width: 340,
     },
@@ -57,7 +61,7 @@ function ScreenProfile({navigation}) {
       justifyContent:'center',
       borderColor: '#444',
       borderWidth:2,
-      borderRadius: 10,
+      borderRadius: 15,
       height: 50,
       width: 50,
     },
@@ -67,28 +71,27 @@ function ScreenProfile({navigation}) {
       flexDirection: 'row',
       borderColor: '#444',
       borderWidth:2,
-      borderRadius: 10,
+      borderRadius: 15,
       height: 60,
       width: 200,
     },
     view7:{
       marginTop: 10,
-      marginLeft: 10,
+      marginHorizontal: 10,
       borderColor: '#444',
       alignItems: 'center',
       borderWidth:2,
-      borderRadius: 10,
+      borderRadius: 15,
       height: 200,
       width: 150,
     },
     view8:{
       marginTop: 10,
       marginLeft: 10,
-      marginVertical: 20,
       borderColor: '#444',
       borderWidth:2,
-      borderRadius: 10,
-      height: 400,
+      borderRadius: 15,
+      height: 285,
       width: 405,
     },
     view9:{
@@ -98,6 +101,68 @@ function ScreenProfile({navigation}) {
       borderRadius: 10,
       height: 30,
       width: 130,
+    },
+    view10:{
+      marginTop: 15,
+      marginLeft: 10,
+      backgroundColor: '#1e90ff',
+      alignItems: 'center',
+      justifyContent:   'center',
+      borderRadius: 15,
+      height: 45,
+      width: 380,
+    },
+    view11:{
+      marginTop: 10,
+      marginLeft: 10,
+      borderColor: '#444',
+      marginVertical: 25,
+      borderWidth:2,
+      borderRadius: 15,
+      height: 470,
+      width: 405,
+    },
+    view12:{
+      marginTop: 10,
+      marginLeft: 10,
+      backgroundColor: '#9acd32',
+      alignItems: 'center',
+      justifyContent:   'center',
+      borderRadius: 15,
+      marginHorizontal: 10,
+      height: 110,
+      width: 90,
+    },
+    view13:{
+      marginTop: 10,
+      marginLeft: 10,
+      backgroundColor: '#b22222',
+      alignItems: 'center',
+      justifyContent:   'center',
+      borderRadius: 15,
+      marginHorizontal: 10,
+      height: 110,
+      width: 90,
+    },
+    view14:{
+      marginTop: 10,
+      marginLeft: 10,
+      backgroundColor: '#dda0dd',
+      alignItems: 'center',
+      justifyContent:   'center',
+      borderRadius: 15,
+      marginHorizontal: 10,
+      height: 110,
+      width: 90,
+    },
+    view15:{
+      marginTop: 15,
+      backgroundColor: '#1e90ff',
+      alignItems: 'center',
+      justifyContent:'center',
+      borderRadius: 12,
+      height: 35,
+      width: 270,
     },
     text1:{
       marginTop: 13,
@@ -154,6 +219,31 @@ function ScreenProfile({navigation}) {
       fontSize:20,
       color: '#000',
     },
+    text11:{
+      fontSize:25,
+      color: '#fff',
+      marginLeft: 10,
+    },
+    text12:{
+      fontSize:23,
+      color: '#999',
+      marginLeft: 10,
+    },
+    text13:{
+      fontSize:15,
+      color: '#000',
+    },
+    text14:{
+      fontSize:25,
+      color: '#fff',
+      marginTop: 20,
+    },
+    text15:{
+      fontSize:25,
+      color: '#fff',
+      marginTop: 10,
+      marginLeft: 10,
+    },
     
     image1: {
       marginTop: 15,
@@ -181,8 +271,12 @@ function ScreenProfile({navigation}) {
     image4: {
       marginTop: 15,
       marginLeft: 15,
-      height: 90,
-      width: 90
+      height: 85,
+      width: 85
+    },
+    image5: {
+      height: 70,
+      width: 70
     },
     icon1: {
       marginTop: 15,
@@ -288,10 +382,9 @@ function ScreenProfile({navigation}) {
                 <Image style={styles.image3} source={Image2} resizeMode= "stretch"/>
                 <Text style={styles.text7}>x</Text>
               </View>
-             
-              <Text style={styles.text6}>0</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
+              <Text style={styles.text6}>Ronaldo L...</Text>
+              <Text style={styles.text7}>Tayany Person</Text>
+              <Text style={styles.text7}>Segue</Text>
               <View style={styles.view9}>
                 <Text style={styles.text10}>SEGUIR</Text>
               </View>
@@ -301,9 +394,9 @@ function ScreenProfile({navigation}) {
                 <Image style={styles.image3} source={Image3} resizeMode= "stretch"/>
                 <Text style={styles.text7}>x</Text>
               </View>
-              <Text style={styles.text6}>0</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
+              <Text style={styles.text6}>Theresa</Text>
+              <Text style={styles.text7}>Tayany Person</Text>
+              <Text style={styles.text7}>Segue</Text>
               <View style={styles.view9}>
                 <Text style={styles.text10}>SEGUIR</Text>
               </View>
@@ -313,41 +406,96 @@ function ScreenProfile({navigation}) {
                 <Image style={styles.image3} source={Image4} resizeMode= "stretch"/>
                 <Text style={styles.text7}>x</Text>
               </View>
-              <Text style={styles.text6}>0</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
+              <Text style={styles.text6}>Dany Abig...</Text>
+              <Text style={styles.text7}>Tayany Person</Text>
+              <Text style={styles.text7}>Segue</Text>
               <View style={styles.view9}>
                 <Text style={styles.text10}>SEGUIR</Text>
               </View>
             </View>
             <View style={styles.view7}>              
               <View style={styles.view1}>
-                <Image style={styles.image3} source={Image3} resizeMode= "stretch"/>
+                <Image style={styles.image3} source={Image1} resizeMode= "stretch"/>
                 <Text style={styles.text7}>x</Text>
               </View>
-              <Text style={styles.text6}>0</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
+              <Text style={styles.text6}>Felipe P...</Text>
+              <Text style={styles.text7}>Tayany Person</Text>
+              <Text style={styles.text7}>Segue</Text>
               <View style={styles.view9}>
                 <Text style={styles.text10}>SEGUIR</Text>
               </View>
             </View>
             <View style={styles.view7}>
               <View style={styles.view1}>
-                <Image style={styles.image3} source={Image3} resizeMode= "stretch"/>
+                <Image style={styles.image3} source={Image5} resizeMode= "stretch"/>
                 <Text style={styles.text7}>x</Text>
               </View>
-              <Text style={styles.text6}>0</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
-              <Text style={styles.text7}>Dias seguidos</Text>
+              <Text style={styles.text6}>Roque Gin..</Text>
+              <Text style={styles.text7}>Tayany Person</Text>
+              <Text style={styles.text7}>Segue</Text>
               <View style={styles.view9}>
                 <Text style={styles.text10}>SEGUIR</Text>
               </View>
             </View>
           </ScrollView>
           <View style={styles.view8}>
-          <Image style={styles.image4} source={Image5} resizeMode= "stretch"/>
-          
+            <View style={styles.view1}>
+              <Image style={styles.image4} source={Image6} resizeMode= "stretch"/>
+              <View>
+                <Text style={styles.text8}>Convide os seus </Text>
+                <Text style={styles.text11}>amigos!</Text>
+                <Text style={styles.text12}>Conte pra todo mundo que</Text>
+                <Text style={styles.text12}>aprender um idioma no</Text>
+                <Text style={styles.text12}>Duolingo é grétis e</Text>
+                <Text style={styles.text12}>divertido</Text>
+              </View>
+            </View>
+            <View style={styles.view10}>
+                <Text style={styles.text10}>CONVIDAR AMIGOS</Text>
+              </View>
+          </View>
+          <Text style={styles.text8}>Conquistas</Text>
+          <View style={styles.view11}>
+            <View style={styles.view1}>
+              <View style={styles.view12}>
+                <Image style={styles.image5} source={Icon7} resizeMode= "stretch"/>
+                <Text style={styles.text13}>NIVEL 3</Text>
+              </View>
+              <View>
+                <Text style={styles.text14}>Sabe-tudo</Text>
+                <View style={styles.view15}>
+                  <Text style={styles.text10}>RECEBER RECOMPENSA</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.view2}/>
+            <View style={styles.view1}>
+              <View style={styles.view13}>
+                <Image style={styles.image5} source={Icon8} resizeMode= "stretch"/>
+                <Text style={styles.text13}>NIVEL 2</Text>
+              </View>
+              <View>
+                <Text style={styles.text14}>Intelectual</Text>
+                <View style={styles.view15}>
+                  <Text style={styles.text10}>RECEBER RECOMPENSA</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.view2}/>
+            <View style={styles.view1}>
+              <View style={styles.view14}>
+                <Image style={styles.image5} source={Icon9} resizeMode= "stretch"/>
+                <Text style={styles.text13}>NIVEL 2</Text>
+              </View>
+              <View>
+                <Text style={styles.text14}>Imbatível</Text>
+                <View style={styles.view15}>
+                  <Text style={styles.text10}>RECEBER RECOMPENSA</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.view2}/>
+            <Text style={styles.text15}>Ver mais 8</Text>
           </View>
         </View>
       </ScrollView>
