@@ -42,7 +42,7 @@ function ScreenChallenges({navigation}) {
   });
   return (
     <View style={StyChallenges.container}>
-      <StatusBar animated={true} backgroundColor="#000000" barStyle="light-content" />
+      <StatusBar animated={true} backgroundColor="#222" barStyle="light-content" />
       <Text style={StyChallenges.text}>Desafios</Text>
       <View style={StyChallenges.view1}>
         <TouchableOpacity style={StyChallenges.view2} onPress={() => setPage(1)}>

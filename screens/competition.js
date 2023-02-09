@@ -12,7 +12,7 @@ function ScreenCompetition({navigation}) {
   
   return (
     <View style={StyCompetition.container}>
-      <StatusBar animated={true} backgroundColor="#000000" barStyle="light-content" />
+      <StatusBar animated={true} backgroundColor="#222" barStyle="light-content" />
       <View style={StyCompetition.container1}>
         <View style={StyCompetition.container2}>
           <Image style={StyCompetition. containerImgeg02} source={Imagem02} resizeMode= "stretch"/>
